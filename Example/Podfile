@@ -1,0 +1,6 @@
+use_frameworks!
+target 'XMNKeychain_Tests' do
+  pod 'XMNKeychain', :path => '../'
+  
+  
+end
