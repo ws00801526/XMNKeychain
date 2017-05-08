@@ -13,13 +13,14 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		9750A6421EC0172000944380 /* XMNKeychainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9750A6411EC0172000944380 /* XMNKeychainTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29D45F9950C0BDB58B7814AC /* Pods_XMNKeychain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMNKeychain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FE3B9AB092BB30AD16587F /* Pods-XMNKeychain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMNKeychain_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMNKeychain_Tests/Pods-XMNKeychain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		36420852BE14A387353EB646 /* XMNKeychain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XMNKeychain.podspec; path = ../XMNKeychain.podspec; sourceTree = "<group>"; };
-		41A6F248B7DE5957AB5218C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		36420852BE14A387353EB646 /* XMNKeychain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMNKeychain.podspec; path = ../XMNKeychain.podspec; sourceTree = "<group>"; };
+		41A6F248B7DE5957AB5218C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -29,7 +30,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		84FF5DC5E594D45E0B89AA5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		84FF5DC5E594D45E0B89AA5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9750A6411EC0172000944380 /* XMNKeychainTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMNKeychainTests.m; sourceTree = "<group>"; };
 		F6CA247E28BE464E9D518D65 /* Pods-XMNKeychain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMNKeychain_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMNKeychain_Tests/Pods-XMNKeychain_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				9750A6411EC0172000944380 /* XMNKeychainTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -151,7 +154,7 @@
 				ORGANIZATIONNAME = ws00801526;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+						DevelopmentTeam = N9G92VG962;
 					};
 				};
 			};
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				9750A6421EC0172000944380 /* XMNKeychainTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 30FE3B9AB092BB30AD16587F /* Pods-XMNKeychain_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = N9G92VG962;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -346,7 +351,6 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMNKeychain_Example.app/XMNKeychain_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -355,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6CA247E28BE464E9D518D65 /* Pods-XMNKeychain_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = N9G92VG962;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -365,7 +370,6 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMNKeychain_Example.app/XMNKeychain_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

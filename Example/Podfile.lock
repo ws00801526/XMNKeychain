@@ -1,0 +1,16 @@
+PODS:
+  - XMNKeychain (0.1.0)
+
+DEPENDENCIES:
+  - XMNKeychain (from `../`)
+
+EXTERNAL SOURCES:
+  XMNKeychain:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XMNKeychain: 6447023e7ba0ac28c1fc90f2f479a70faceb14ef
+
+PODFILE CHECKSUM: 8bc5f8888077a5fc8eebb207e28f210e7b74170a
+
+COCOAPODS: 1.2.1
